@@ -1,0 +1,23 @@
+.menu{
+    display: -webkit-box !important;
+}
+.menu li{
+    margin-right: 20px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.logIn{
+    color: #677469;
+}
+.logIn:hover{
+    color: #595e59;
+    border-bottom: 1px solid;
+}
+.join{
+    color: #40ba9b;
+}
+.join:hover{
+    color: #40ba9b;
+    border-bottom: 1px solid;
+}
