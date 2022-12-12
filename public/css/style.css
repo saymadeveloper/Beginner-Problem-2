@@ -1,27 +1,107 @@
-.menu{
+/* MENU CSS */
+.menu {
     display: -webkit-box !important;
 }
-.menu li{
+
+.menu li {
     margin-right: 20px;
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
 }
-.logIn{
+
+.logIn {
     color: #677469;
 }
-.logIn:hover{
+
+.logIn:hover {
     color: #595e59;
     border-bottom: 1px solid;
 }
-.join{
+
+.join {
     color: #40ba9b;
 }
-.join:hover{
+
+.join:hover {
     color: #40ba9b;
     border-bottom: 1px solid;
 }
-.header-bg{
+
+/* HEADER CSS */
+.header-bg {
     background-color: #ebefee;
-    height:700px
+    height: 700px
+}
+
+.header-title {
+    width: 32%;
+}
+
+.header-btn {
+    background-color: #40ba9b;
+    text-align: center;
+    border-radius: 6px;
+    width: 75%;
+    padding: 20px 10px;
+    border: none;
+    color: white;
+}
+
+.header-logo {
+    height: 700px;
+}
+
+/* MAIN CONTENT CSS */
+.discover-img {
+    width: 400px;
+}
+
+.discover-title {
+    width: 50%;
+}
+
+.visit-btn {
+    border: 1px solid #40ba9b;
+    border-radius: 60.5px;
+    padding: 15px 20px;
+    color: #40ba9b;
+    background: white;
+    margin-right: 20px;
+}
+
+.visit-btn:hover {
+    background-color: rgba(64, 186, 155, .11);
+}
+
+.advance-research {
+    
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 60px;
+}
+
+/* FOOTER CSS  */
+.footer{
+    height: 500px;
+}
+.footer-container{
+
+}
+
+/* RESPOSIVE CSS */
+@media screen and (max-width: 500px) {
+    .header-content-title {
+        align-items: center;
+    }
+
+    .header-logo {
+        height: 300px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .advance-research {
+        width: 50%;
+    }
 }

@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <nav class="navbar navbar-light bg-white border-bottom fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="/images/logo.png" />
         </a>
