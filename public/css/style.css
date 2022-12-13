@@ -83,11 +83,32 @@
 }
 
 /* FOOTER CSS  */
-.footer{
-    height: 500px;
-}
-.footer-container{
 
+.footer-container{
+  padding: 100px;
+}
+.footer-title{
+    font-weight: 300;
+}
+.list-inline{
+    display: -webkit-box !important
+}
+.list-inline li {
+    margin-right: 20px;
+}
+.list-inline li a{
+    text-decoration: none;
+    color: #677469;
+    font-weight: 300;
+}
+.list-inline li a:hover{
+    color: #677469;
+    border-bottom: 1px solid rgb(106, 106, 231);
+}
+.copy-right{
+    text-decoration: none;
+    color: #677469;
+    font-weight: 300;
 }
 
 /* RESPOSIVE CSS */
@@ -99,9 +120,25 @@
     .header-logo {
         height: 300px;
     }
+    .footer{
+        height: 1500px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 783px) {
+    .footer{
+        height: 1500px;
+    }
+}
+@media screen and (min-width: 784px) and (max-width: 1190px) {
+    .footer{
+        height: 1000px;
+    }
 }
 @media screen and (min-width: 1200px) {
     .advance-research {
         width: 50%;
+    }
+    .footer{
+        height: 560px;
     }
 }
